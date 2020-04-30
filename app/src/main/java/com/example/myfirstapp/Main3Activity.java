@@ -94,7 +94,7 @@ public class Main3Activity extends AppCompatActivity {
             super.onPreExecute();
             // Showing progress dialog
             progress_bar = new ProgressDialog(Main3Activity.this);
-            progress_bar.setMessage("Fetching States...");
+            progress_bar.setMessage("Fetching...");
             progress_bar.setCancelable(true);
             progress_bar.show();
 
